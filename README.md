@@ -1,7 +1,7 @@
 # DNN-based-HRIRs-identifications
 DNN-based HRIRs identifications using a continuous rotating speaker array
 
-downloading binaural recording data from Zenodo
+download binaural recording files from Zenodo
 https://doi.org/10.5281/zenodo.15004050
 and upload the files on the 'data' folder
 
