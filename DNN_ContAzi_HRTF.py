@@ -171,7 +171,7 @@ def main():
             plt.colorbar()
             plt.gca().set_aspect('auto')
             plt.gca().invert_yaxis()
-            plotname = 'plot_FA/Imshow_' + str(i) + '.png'
+            plotname = 'plot/Imshow_' + str(i) + '.png'
             plt.savefig(plotname)
             plt.cla()
             plt.clf()
