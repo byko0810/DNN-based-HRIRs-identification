@@ -99,7 +99,7 @@ while 1
         % KalmanSL_hrir_p(:,:,1+i*hop_size+2*ns*est_length:end) = xsmoothL(:,:,1+2*ns*est_length:end);
         
         Kalman_hrir_p = gather(Kalman_hrir_p);
-        save('save/Kalman_hrir_p_180_12ch.mat', 'Kalman_hrir_p');
+        save('save/Kalman_hrir_p_180_12ch.mat', 'Kalman_hrir_p', '-v7.3');
         % KalmanSL_hrir_p = gather(KalmanSL_hrir_p);
         % save('save/KalmanSL_hrir_p_180_12ch.mat', 'KalmanSL_hrir_p');
         break
