@@ -18,7 +18,7 @@ ns = size(hrir,2);
 % rv = 45; % rotation speed (degree/sec)
 total_time = angle / rv;
 % sigma_sqr = 0.01;
-stepsize = 1;
+stepsize = 0.5;
 
 y = y';
 
